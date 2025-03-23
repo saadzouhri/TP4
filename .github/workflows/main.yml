@@ -14,6 +14,6 @@ jobs:
         with:
           python-version: "3.9"
       - name: Install packages
-        run: pip install -r requirements.txt
+        run : python myscript.py c1a4be04b972b6c17db242fc37752ad517c29402 e4cfc6f77ebbe2e23550ddab682316ab4ce1c03c
       - name: Run tests
         run: python manage.py test
